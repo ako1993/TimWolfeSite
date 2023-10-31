@@ -1,0 +1,608 @@
+
+/*Beginning of phone viewport Rules (ends on line 127)*/
+body{
+  background-color: black;
+}
+
+.image h1{
+  width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+    .container{
+        position:relative;
+        min-height: 100vh;
+    }
+
+    .body{
+        padding-bottom: 2.5rem;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-family: comic sans MS;
+    }
+
+    .phonenav{
+        height: 40px;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top: 0%; 
+        position: relative;
+    }
+
+    .phonenav a{
+       position: relative;
+        text-decoration: none;
+        padding: 20px;  
+        top: 10px;  
+        color: white; 
+        font-family: comic sans MS;
+    }
+
+   .phonenav img{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    left: 0px; 
+   }
+
+   #banner{
+    display: none;
+   }
+
+   img{
+    width:100%;
+    height:auto;
+   }
+   .image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image h1 {
+    position: absolute;
+    z-index: 0;
+    /* animation properties */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+  }
+  
+  /* for Firefox */
+  @-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+    to {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+
+  }
+  
+   .image img {
+    top: 0px;
+    z-index: -1;
+   }
+
+  
+
+    p{
+        text-align: center;
+        color: white;
+        font-family: comic sans MS;
+        
+    }
+
+    footer{
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;
+        
+    }
+
+    footer img{
+        height: 100%;
+        width: auto;
+        padding: 40px;
+    }
+    /*specific mobile rules for video page*/
+    .videoBanner{
+      position: relative;
+    }
+
+    #bannertext{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    width: 100%;
+    
+    }
+
+    .videoBanner img{
+      width: 100%;
+      height: auto;
+    
+    }
+
+    #vidnav{
+      position: relative;
+      text-align: center;
+      
+    }
+
+    #vidnav a{
+      text-decoration: none;
+      color: white;
+      font-family: comic sans MS;
+      padding: 10%;
+      margin-bottom: 0%;
+    }
+
+    #mainvids{
+      position: relative;
+    }
+
+    .blockvid{
+      padding-top: 5%;
+      padding-bottom: 5%;
+    }
+
+    .blockvid video {
+      width: 100%;
+      height: auto;
+    }
+
+    .blockvid p {
+      text-decoration: underline;
+      margin-bottom: 0%;
+    }
+}
+/*end of phone viewport rules*/
+
+/*Beginning of tablet viewport rules (end on 247)*/
+@media screen and (min-width: 450px) {
+  .container{
+      position:relative;
+      min-height: 100vh;
+  }
+
+  .body{
+      padding-bottom: 2.5rem;
+  }
+
+  h1 {
+      text-align: center;
+      color: white;
+      font-family: comic sans MS;
+  }
+
+  .phonenav{
+      height: 40px;
+      background-color: rgb(0, 0, 0);
+      text-align: center;
+      margin-top: 0%; 
+      position: relative;
+  }
+
+  .phonenav a{
+     position: relative;
+      text-decoration: none;
+      padding: 20px;  
+      top: 10px;  
+      color: white; 
+      font-family: comic sans MS;
+  }
+
+ .phonenav img{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  left: 0px; 
+ }
+
+ img{
+  width:100%;
+  height:auto;
+ }
+ .image {
+  position: relative;
+  overflow: hidden;
+}
+
+.image h1 {
+  position: absolute;
+  font-size: 80px;
+  z-index: 0;
+  /* animation properties */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(100%); }
+  to { -moz-transform: translateX(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(100%); }
+  to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+
+}
+
+ .image img {
+  top: 0px;
+  z-index: -1;
+  width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ #banner {
+  z-index: -2;
+  position: absolute;
+  height: 100%;
+  width: auto;
+  top: 0;
+  opacity: .4;
+  
+ 
+ }
+
+
+
+  p{
+      text-align: center;
+      color: white;
+      font-family: comic sans MS;
+      
+  }
+
+  footer{
+      position: absolute;
+      text-align: center;
+      bottom: 0;
+      width: 100%;
+      height: 2.5rem;
+      
+  }
+
+  footer img{
+      height: 100%;
+      width: auto;
+      padding: 40px;
+  }
+  /*Tablet rules for video page*/
+  .videoBanner{
+    position: relative;
+  }
+
+  #bannertext{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  width: 100%;
+  font-size: x-large;
+  
+  }
+
+  .videoBanner img{
+    width: 100%;
+    height: auto;
+  
+  }
+
+  #vidnav{
+    position: relative;
+    text-align: center;
+    
+  }
+
+  #vidnav a{
+    text-decoration: none;
+    color: white;
+    font-family: comic sans MS;
+    padding: 10%;
+    margin-bottom: 0%;
+  }
+
+  #mainvids{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+  }
+
+  #mainvids p{
+    display: none;
+  }
+
+  .blockvid {
+    width: 50%;
+    height: auto;
+  }
+
+  /*#vid2 {
+    width: 50%;
+    height: auto;
+  }*/
+
+  #vid3 {
+    display: none;
+  }
+
+  #vid4 {
+    display: none;
+  }
+
+  #vid5 {
+    display: none;
+  }
+
+  #vid6 {
+    display: none;
+  }
+
+  #vid7 {
+    display: none;
+  }
+
+  #vid8 {
+    display: none;
+  }
+
+  #vid9 {
+    display: none;
+  }
+}
+/*End of tablet viewport rules*/
+
+/*Viewport rules for 900 pixels and above*/
+@media screen and (min-width: 900px){
+  .image img {
+    top: 0px;
+    z-index: -1;
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+   }
+  }
+
+/*dynamic nav bar rules*/
+@media screen and (max-width: 310px){
+  .phonenav a{
+    padding: 10px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 270px){
+  .phonenav a{
+    padding: 5px;
+  }
+  .phonenav{
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 229px){
+  .phonenav a{
+    padding: 3px;
+  }
+  .phonenav{
+    height: 28px;
+    
+  }
+}
+
+@media screen and (min-width: 768px){
+  .phonenav{
+    height: 45px;
+  }
+  .phonenav a{
+    padding: 50px;
+    font-size: 25px;
+  }
+}
+/*end of dynamic nav bar rules*/
+
+/*dynamic h1 rules*/
+@media screen and (max-width: 308px){
+.image h1{
+  font-size: 25px;
+}
+}
+
+@media screen and (max-width: 244px){
+  .image h1{
+    font-size: 15px;
+  }
+  }
+/*end of dynamic h1 rules*/
+
+/*dynamic footer rules*/
+@media screen and (max-width: 400px){
+
+  footer img{
+    padding: 20px;
+  }
+  footer{
+    height: 2rem;
+  }
+}
+
+@media screen and (max-width: 280px){
+
+  footer img{
+    padding: 10px;
+  }
+  footer{
+    height: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 220px){
+
+  footer img{
+    padding: 5px;
+  }
+  footer{
+    height: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+  footer img{
+    padding: 70px;
+  }
+
+}
+/*end of dynamic footer rules*/
+
+/*Rules for video that appears on home page at Ipad mini viewport size*/
+@media screen and (max-width: 767px){
+#homeclips{
+  display: block;
+}
+
+#clip1{
+  width: 100%;
+  height: auto;
+}
+
+#clip2{
+  width: 100%;
+  height: auto;
+}
+
+#clip3{
+  width: 100%;
+  height: auto;
+}
+
+#caption1 {
+  font-size: larger;
+  text-decoration: underline;
+}
+
+#caption2 {
+  font-size: larger;
+  text-decoration: underline;
+}
+
+#caption3 {
+  font-size: larger;
+  text-decoration: underline;
+}
+
+
+}
+
+
+
+@media screen and (min-width: 768px){
+  #homeclips{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    
+  }
+   #clip1 {
+    position: relative;
+    width: 33%;
+    height: auto;
+    border:1px;
+    border-style: solid;
+    border-color: white;
+   }
+
+   #clip2 {
+    position: relative;
+    width: 33%;
+    height: auto;
+    border:1px;
+    border-style: solid;
+    border-color: white;
+    
+   }
+
+   #clip3 {
+    position: relative;
+    width: 33%;
+    height: auto;
+    border:1px;
+    border-style: solid;
+    border-color: white;
+   }
+
+   #caption1{
+    display: none;
+   }
+
+   #caption2{
+    display: none;
+   }
+
+   #caption3{
+    display: none;
+   }
+
+
+}
+/*end of rules for clips that appear at ipad mini viewport size
+
+
+
+
+
