@@ -364,6 +364,7 @@ body{
   }
 
   .blockvid {
+    position: relative;
     width: 50%;
     height: auto;
   }
