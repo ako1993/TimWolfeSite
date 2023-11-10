@@ -180,6 +180,14 @@ body{
       text-decoration: underline;
       margin-bottom: 0%;
     }
+
+    #bigvids{
+      display: none;
+    }
+
+    #set9{
+      display: none;
+    }
 }
 /*end of phone viewport rules*/
 
@@ -353,54 +361,74 @@ body{
   }
 
   #mainvids{
-    width: 100%;
-    height: auto;
-    position: relative;
-    display: flex;
-  }
-
-  #mainvids p{
     display: none;
   }
 
-  .blockvid {
-    position: relative;
-    width: 50%;
-    height: auto;
-  }
+ #bigvids{
+  position: relative;
+  width: 100%;
+  height: auto;
+ }
 
-  /*#vid2 {
-    width: 50%;
-    height: auto;
-  }*/
+ #row1{
+  display: flex;
+  
+ }
 
-  #vid3 {
-    display: none;
-  }
+ #set1{
+  width : 50%;
+  height : auto;
+ }
 
-  #vid4 {
-    display: none;
-  }
+ #set2{
+  width : 50%;
+  height : auto;
+ }
 
-  #vid5 {
-    display: none;
-  }
+ #row2{
+  display: flex;
+  
+ }
 
-  #vid6 {
-    display: none;
-  }
+ #set3{
+  width : 33%;
+  height : auto;
+ }
 
-  #vid7 {
-    display: none;
-  }
+ #set4{
+  width : 33%;
+  height : auto;
+ }
 
-  #vid8 {
-    display: none;
-  }
+ #set5{
+  width : 33%;
+  height : auto;
+ }
 
-  #vid9 {
-    display: none;
-  }
+ #row3{
+  display: flex;
+  
+ }
+
+ #set6{
+  width : 33%;
+  height : auto;
+ }
+
+ #set7{
+  width : 33%;
+  height : auto;
+ }
+
+ #set8{
+  width : 33%;
+  height : auto;
+ }
+
+ #set9{
+  width: 33%;
+  height: auto;
+ }
 }
 /*End of tablet viewport rules*/
 
