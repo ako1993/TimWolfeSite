@@ -8,6 +8,11 @@ body{
   width: 100%;
 }
 
+#email{
+  padding-bottom: 15%;
+  padding-top: 15%;
+}
+
 @media screen and (max-width: 450px) {
     .container{
         position:relative;
@@ -113,6 +118,8 @@ body{
         font-family: comic sans MS;
         
     }
+
+  
 
     footer{
         position: absolute;
