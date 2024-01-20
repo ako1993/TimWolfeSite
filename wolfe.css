@@ -119,7 +119,20 @@ body{
         
     }
 
-  
+    .upcomingshows{
+      position: relative;
+      overflow: hidden;
+      scroll-behavior: none;
+    }
+
+    .showsbackground{
+      position: absolute;
+      height: 100%;
+      width: auto;
+      display: block;
+      z-index: -1;
+      opacity: 0.5;
+    }
 
     footer{
         position: absolute;
@@ -318,6 +331,25 @@ body{
       
   }
 
+  .upcomingshows{
+    position: relative;
+    overflow: hidden;
+    scroll-behavior: none;
+  }
+
+  .showsbackground{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    display: block;
+    z-index: -1;
+    opacity: 0.5;
+  }
+
+  .show{
+    font-size: x-large;
+  }
+
   footer{
       position: absolute;
       text-align: center;
@@ -451,6 +483,34 @@ body{
     margin-right: auto;
     
    }
+
+   .upcomingshows{
+    position: relative;
+    overflow: hidden;
+    scroll-behavior: none;
+  }
+
+  .upcomingshowsheader{
+    position: relative;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .showsbackground{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    display: block;
+    z-index: -1;
+    opacity: 0.5;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  
   }
 
 /*dynamic nav bar rules*/
